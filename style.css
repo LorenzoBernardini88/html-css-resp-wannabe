@@ -87,7 +87,6 @@ img {
     width: 100%;
     padding:20px;
     margin-top: 0px;
-    align-items: center;
   }
   #steps{
     background-color: #FFFFFF;
@@ -110,15 +109,41 @@ img {
     border: solid 2px black;
   }
 
-
-
-
-
-
-
-
-
 }
 
-  
+@media screen and (min-width: 420px), (max-width:1080) {
+  *{
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  #lezioni, #why{
+    background-color:#F2F2CD;
+  }
+  .row{
+    width: 100%;
+    padding:20px;
+    margin-top: 0px;
+  }
+  #steps{
+    background-color: #FFFFFF;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin-top: 20px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  hr{
+    border: solid 2px black;
+  }
+}
 
