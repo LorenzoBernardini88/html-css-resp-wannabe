@@ -80,7 +80,6 @@ img {
     box-sizing: border-box;
     font-size: 25px;
   }
-  
   .row{
     background-color:#F2F2CD;
   }
@@ -95,7 +94,6 @@ img {
   #steps .row{
     background-color: #FFFFFF;
   }
-  
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
@@ -103,12 +101,14 @@ img {
   #steps .row>.right {
     width: 100%;
   }
-  
   h1{
     font-size: 40px;
   }
   h3{
     font-size: 30px;
+  }
+  hr{
+    border: solid 2px black;
   }
 
 
