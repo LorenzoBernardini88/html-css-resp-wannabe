@@ -73,10 +73,21 @@ img {
 }
 
 
-@media screen and (max-width: 420px){
-
-  
-
+@media screen and (max-width: 420px) {
+    
+    /* BLOCCO LEZIONI */
+  #lezioni .row{
+    background-color:#F2F2CD;
+    
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row .right{
+    margin-top: 20px;
+  }
 
 
 
