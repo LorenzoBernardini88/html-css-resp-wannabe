@@ -111,7 +111,7 @@ img {
 
 }
 
-@media screen and (min-width: 420px), (max-width:1080) {
+@media screen and (min-width: 420px) and (max-width:1080) {
   *{
     margin: 0px;
     box-sizing: border-box;
