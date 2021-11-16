@@ -78,20 +78,18 @@ img {
   *{
     margin: 0px;
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 15px;
   }
-  .row{
+  #lezioni, #why{
     background-color:#F2F2CD;
   }
   .row{
+    width: 100%;
     padding:20px;
     margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     align-items: center;
   }
-  #steps .row{
+  #steps{
     background-color: #FFFFFF;
   }
   #lezioni .row>.left,
@@ -100,12 +98,13 @@ img {
   #steps .row>.central,
   #steps .row>.right {
     width: 100%;
+    margin-top: 20px;
   }
   h1{
-    font-size: 40px;
+    font-size: 30px;
   }
   h3{
-    font-size: 30px;
+    font-size: 20px;
   }
   hr{
     border: solid 2px black;
